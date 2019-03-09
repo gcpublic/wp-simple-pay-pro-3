@@ -1,0 +1,382 @@
+@import 'mixins';
+@import 'variables';
+
+// Styles shared between all 3 form types (Embedded, Overlay & Classic)
+// Classic = Stripe Checkout
+
+.simpay-form-control {
+
+	// Coupon field & apply button
+	.simpay-coupon-field {
+		display: inline-block; // Force inline for apply button
+		min-width: 150px;
+		width: 150px;
+	}
+
+	.simpay-apply-coupon {
+		margin-left: 10px;
+	}
+
+	// Custom amount input & currency symbol
+	.simpay-custom-amount-input,
+	.simpay-currency-symbol {
+		border: 1px solid $input-border-color;
+		border-radius: 0;
+		margin: 0;
+		padding: 0 10px;
+		float: left;
+		@include box-sizing(border-box);
+	}
+
+	.simpay-custom-amount-input {
+		height: $input-height;
+		width: 125px;
+		min-width: 125px;
+	}
+
+	.simpay-currency-symbol {
+		background-color: #f2f2f2;
+		line-height: 34px;
+	}
+
+	.simpay-currency-symbol-left {
+		border-right: 0;
+	}
+
+	.simpay-currency-symbol-right {
+		border-left: 0;
+	}
+
+	.simpay-checkbox-wrap,
+	.simpay-same-address-toggle-wrap {
+		label {
+			display: inline;
+		}
+	}
+
+	// Set color of invalid text & labels.
+	.simpay-field-error,
+	.simpay-field-error label.error {
+		color: $error-text-color;
+		display: block;
+		font-weight: normal;
+	}
+}
+
+// Modal
+
+.simpay-modal-control {
+	display: none;
+
+	&:checked + .simpay-modal {
+		height: 100%;
+		opacity: 1;
+	}
+}
+
+.simpay-modal-control-open {
+	display: inline-block;
+	margin: 0 0 15px 0;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+
+	.simpay-form-control {
+		margin: 0;
+	}
+
+	* { pointer-events: none; }
+}
+
+.simpay-modal-control-close {
+	@include font-system();
+	color: #a6a6a6;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	padding: 5px 10px;
+	cursor: pointer;
+
+	&:hover {
+		color: #8d8d8d;
+	}
+}
+
+.simpay-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 999;
+	overflow: hidden;
+	height: 0;
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+.simpay-modal__body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+	max-width: 440px;
+	max-height: calc(100vh - 60px);
+	margin: 0 auto;
+	overflow-y: auto;
+}
+
+.simpay-modal__content {
+	position: relative;
+	padding: 30px 30px 15px 30px;
+	background: #fff;
+}
+
+// Heading & subhead for Embedded & Overlay form types.
+
+.simpay-embedded-heading {
+	margin-top: 15px;
+}
+
+.simpay-form-title,
+.simpay-form-description {
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+.simpay-form-title {
+	font-size: 20px;
+	color: $base-text-color;
+	margin-bottom: 10px;
+}
+
+.simpay-form-description {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.simpay-modal {
+
+	// Center heading & subhead on overlay by default.
+	.simpay-form-title,
+	.simpay-form-description {
+		text-align: center;
+	}
+
+	// Less margin above/below heading on overlay.
+	.simpay-form-title {
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+}
+
+// TODO Simplify output of generated CSS here.
+
+.simpay-form-wrap {
+	& .simpay-checkout-form {
+
+		// Styles shared between Embedded & Overlay form types.
+
+		&--overlay,
+		&--embedded {
+
+			@include font-checkout();
+			font-size: 15px;
+			font-weight: 500;
+			color: $base-text-color;
+
+			.simpay-form-control {
+
+				input[type="date"],
+				input[type="time"],
+				input[type="datetime-local"],
+				input[type="week"],
+				input[type="month"],
+				input[type="text"],
+				input[type="email"],
+				input[type="url"],
+				input[type="password"],
+				input[type="search"],
+				input[type="tel"],
+				input[type="number"],
+				select,
+				textarea,
+				.simpay-card-wrap.StripeElement {
+					@include font-checkout();
+					font-size: 15px;
+					font-weight: 500;
+					color: $input-text-color;
+
+					&::placeholder {
+						@include font-checkout();
+						font-size: 15px;
+						font-weight: 500;
+						color: $input-placeholder-color;
+					}
+
+					// Form styles not repeated in Elements JS
+					background: #fff;
+					border: 1px solid $input-border-color;
+					border-radius: 4px;
+					padding: 0.6em 0.4375em;
+					height: $input-height;
+					width: 100%;
+
+					&:focus {
+						background-color: #fff;
+						border-color: $input-focus-border-color;
+						color: $input-text-color;
+						outline: 0;
+					}
+
+					// Set border color of invalid inputs.
+					&.simpay-input-error {
+						border-color: $error-text-color;
+					}
+				}
+
+				// Card element only
+				// Repeating focus styles for Card element.
+				// Not sure how else to do this as it uses --focus instead of :focus.
+				.simpay-card-wrap.StripeElement--focus {
+					background-color: #fff;
+					border-color: $input-focus-border-color;
+					color: $input-text-color;
+					outline: 0;
+				}
+
+				// TODO Move out of .simpay-form-control {} since they have their own classes now?
+
+				// Custom amount input
+				input[type="tel"],
+				input[type="text"] {
+					&.simpay-custom-amount-input {
+
+						width: 125px; // Same as original custom amount input width
+
+						&.simpay-custom-amount-input-symbol-left {
+							border-top-left-radius: 0;
+							border-bottom-left-radius: 0;
+						}
+
+						&.simpay-custom-amount-input-symbol-right {
+							border-top-right-radius: 0;
+							border-bottom-right-radius: 0;
+						}
+					}
+				}
+
+				// Currency symbol left/right adjustments for custom amount input.
+				.simpay-currency-symbol {
+					border-radius: 4px;
+				}
+
+				.simpay-currency-symbol-left {
+					border-right: 0;
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+
+				.simpay-currency-symbol-right {
+					border-left: 0;
+					border-top-left-radius: 0;
+					border-bottom-left-radius: 0;
+				}
+
+				select {
+					width: auto;
+					max-width: 100%;
+				}
+
+				textarea {
+					height: auto;
+				}
+
+				// Coupon code input
+				input[type="text"].simpay-coupon-field {
+					width: calc(100% - 120px);
+				}
+
+				// Green payment & checkout buttons
+				.simpay-payment-btn,
+				.simpay-checkout-btn,
+				.simpay-apply-coupon {
+					@include font-checkout();
+					font-size: 15px;
+					font-weight: 600;
+					color: #fff;
+					background-color: #24b47e;
+					display: block;
+					height: $input-height;
+					line-height: $line-height;
+					width: 100%;
+					margin: 0;
+					padding: 0;
+					border-radius: 4px;
+					outline: none;
+					text-transform: uppercase;
+					cursor: pointer;
+
+					&:hover {
+						background-color: #249A65;
+					}
+
+					&:disabled {
+						pointer-events: none;
+					}
+
+					&.simpay-disabled {
+						background-color: #aab7c4;
+					}
+				}
+
+				// Gray coupon apply button
+				.simpay-apply-coupon {
+					background-color: #aab7c4;
+					width: 110px;
+					float: right;
+
+					&:hover {
+						background-color: #888;
+					}
+				}
+			}
+
+			// Address fields
+			.simpay-address-container {
+
+				.simpay-field-wrap {
+					margin-bottom: 15px;
+				}
+
+				// Half-width fields
+				.simpay-address-city-container,
+				.simpay-address-state-container,
+				.simpay-address-zip-container,
+				.simpay-address-country-container {
+					float: left;
+					width: 48%;
+				}
+
+				// Right-side fields
+				.simpay-address-state-container,
+				.simpay-address-country-container {
+					float: right;
+				}
+			}
+
+			// Test mode badge
+			.simpay-test-mode-badge-container {
+				text-align: center;
+			}
+		}
+
+		&--embedded {
+			max-width: 400px;
+		}
+	}
+}

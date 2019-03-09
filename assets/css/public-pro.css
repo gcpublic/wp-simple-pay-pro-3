@@ -1,0 +1,384 @@
+.simpay-clearfix {
+  *zoom: 1; }
+  .simpay-clearfix::before, .simpay-clearfix::after {
+    content: " ";
+    display: table; }
+  .simpay-clearfix::after {
+    clear: both; }
+
+.simpay-form-control .simpay-coupon-field {
+  display: inline-block;
+  min-width: 150px;
+  width: 150px; }
+
+.simpay-form-control .simpay-apply-coupon {
+  margin-left: 10px; }
+
+.simpay-form-control .simpay-custom-amount-input,
+.simpay-form-control .simpay-currency-symbol {
+  border: 1px solid #d1d1d1;
+  border-radius: 0;
+  margin: 0;
+  padding: 0 10px;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.simpay-form-control .simpay-custom-amount-input {
+  height: 36px;
+  width: 125px;
+  min-width: 125px; }
+
+.simpay-form-control .simpay-currency-symbol {
+  background-color: #f2f2f2;
+  line-height: 34px; }
+
+.simpay-form-control .simpay-currency-symbol-left {
+  border-right: 0; }
+
+.simpay-form-control .simpay-currency-symbol-right {
+  border-left: 0; }
+
+.simpay-form-control .simpay-checkbox-wrap label,
+.simpay-form-control .simpay-same-address-toggle-wrap label {
+  display: inline; }
+
+.simpay-form-control .simpay-field-error,
+.simpay-form-control .simpay-field-error label.error {
+  color: #eb1c26;
+  display: block;
+  font-weight: normal; }
+
+.simpay-modal-control {
+  display: none; }
+  .simpay-modal-control:checked + .simpay-modal {
+    height: 100%;
+    opacity: 1; }
+
+.simpay-modal-control-open {
+  display: inline-block;
+  margin: 0 0 15px 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer; }
+  .simpay-modal-control-open .simpay-form-control {
+    margin: 0; }
+  .simpay-modal-control-open * {
+    pointer-events: none; }
+
+.simpay-modal-control-close {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #a6a6a6;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 5px 10px;
+  cursor: pointer; }
+  .simpay-modal-control-close:hover {
+    color: #8d8d8d; }
+
+.simpay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity .3s; }
+
+.simpay-modal__body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  max-width: 440px;
+  max-height: calc(100vh - 60px);
+  margin: 0 auto;
+  overflow-y: auto; }
+
+.simpay-modal__content {
+  position: relative;
+  padding: 30px 30px 15px 30px;
+  background: #fff; }
+
+.simpay-embedded-heading {
+  margin-top: 15px; }
+
+.simpay-form-title,
+.simpay-form-description {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  line-height: 1; }
+
+.simpay-form-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px; }
+
+.simpay-form-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px; }
+
+.simpay-modal .simpay-form-title,
+.simpay-modal .simpay-form-description {
+  text-align: center; }
+
+.simpay-modal .simpay-form-title {
+  margin-top: 0;
+  margin-bottom: 0.5em; }
+
+.simpay-form-wrap .simpay-checkout-form--overlay, .simpay-form-wrap .simpay-checkout-form--embedded {
+  font-family: Roboto, 'Open Sans', Segoe UI, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="date"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="time"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="datetime-local"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="week"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="month"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="email"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="url"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="password"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="search"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="number"],
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control select,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control textarea,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-card-wrap.StripeElement, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="date"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="time"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="datetime-local"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="week"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="month"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="email"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="url"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="password"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="search"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="number"],
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control select,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control textarea,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-card-wrap.StripeElement {
+    font-family: Roboto, 'Open Sans', Segoe UI, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+    font-weight: 500;
+    color: #32325d;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 0.6em 0.4375em;
+    height: 36px;
+    width: 100%; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="date"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="time"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="datetime-local"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="week"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="month"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="email"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="url"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="password"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="search"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="number"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control select::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control textarea::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-card-wrap.StripeElement::placeholder, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="date"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="time"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="datetime-local"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="week"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="month"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="email"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="url"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="password"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="search"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="number"]::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control select::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control textarea::placeholder,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-card-wrap.StripeElement::placeholder {
+      font-family: Roboto, 'Open Sans', Segoe UI, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 15px;
+      font-weight: 500;
+      color: #aab7c4; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="date"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="time"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="datetime-local"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="week"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="month"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="email"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="url"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="password"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="search"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="number"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control select:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control textarea:focus,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-card-wrap.StripeElement:focus, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="date"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="time"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="datetime-local"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="week"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="month"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="email"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="url"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="password"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="search"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="number"]:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control select:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control textarea:focus,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-card-wrap.StripeElement:focus {
+      background-color: #fff;
+      border-color: #007acc;
+      color: #32325d;
+      outline: 0; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="date"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="time"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="datetime-local"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="week"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="month"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="email"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="url"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="password"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="search"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="number"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control select.simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control textarea.simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-card-wrap.StripeElement.simpay-input-error, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="date"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="time"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="datetime-local"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="week"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="month"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="email"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="url"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="password"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="search"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="number"].simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control select.simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control textarea.simpay-input-error,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-card-wrap.StripeElement.simpay-input-error {
+      border-color: #eb1c26; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-card-wrap.StripeElement--focus, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-card-wrap.StripeElement--focus {
+    background-color: #fff;
+    border-color: #007acc;
+    color: #32325d;
+    outline: 0; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"].simpay-custom-amount-input,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"].simpay-custom-amount-input, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"].simpay-custom-amount-input,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"].simpay-custom-amount-input {
+    width: 125px; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-left,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-left, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-left,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-left {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="tel"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-right,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-right, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="tel"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-right,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"].simpay-custom-amount-input.simpay-custom-amount-input-symbol-right {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-currency-symbol, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-currency-symbol {
+    border-radius: 4px; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-currency-symbol-left, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-currency-symbol-left {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-currency-symbol-right, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-currency-symbol-right {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control select, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control select {
+    width: auto;
+    max-width: 100%; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control textarea, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control textarea {
+    height: auto; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control input[type="text"].simpay-coupon-field, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control input[type="text"].simpay-coupon-field {
+    width: calc(100% - 120px); }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-payment-btn,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-checkout-btn,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-payment-btn,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-checkout-btn,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon {
+    font-family: Roboto, 'Open Sans', Segoe UI, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #24b47e;
+    display: block;
+    height: 36px;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-payment-btn:hover,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-checkout-btn:hover,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon:hover, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-payment-btn:hover,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-checkout-btn:hover,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon:hover {
+      background-color: #249A65; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-payment-btn:disabled,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-checkout-btn:disabled,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon:disabled, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-payment-btn:disabled,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-checkout-btn:disabled,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon:disabled {
+      pointer-events: none; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-payment-btn.simpay-disabled,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-checkout-btn.simpay-disabled,
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon.simpay-disabled, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-payment-btn.simpay-disabled,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-checkout-btn.simpay-disabled,
+    .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon.simpay-disabled {
+      background-color: #aab7c4; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon {
+    background-color: #aab7c4;
+    width: 110px;
+    float: right; }
+    .simpay-form-wrap .simpay-checkout-form--overlay .simpay-form-control .simpay-apply-coupon:hover, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-form-control .simpay-apply-coupon:hover {
+      background-color: #888; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-field-wrap, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-field-wrap {
+    margin-bottom: 15px; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-city-container,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-state-container,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-zip-container,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-country-container, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-city-container,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-state-container,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-zip-container,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-country-container {
+    float: left;
+    width: 48%; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-state-container,
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-address-container .simpay-address-country-container, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-state-container,
+  .simpay-form-wrap .simpay-checkout-form--embedded .simpay-address-container .simpay-address-country-container {
+    float: right; }
+  .simpay-form-wrap .simpay-checkout-form--overlay .simpay-test-mode-badge-container, .simpay-form-wrap .simpay-checkout-form--embedded .simpay-test-mode-badge-container {
+    text-align: center; }
+
+.simpay-form-wrap .simpay-checkout-form--embedded {
+  max-width: 400px; }

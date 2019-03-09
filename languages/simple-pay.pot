@@ -1,0 +1,2933 @@
+# Copyright (C) 2019 WP Simple Pay
+# This file is distributed under the same license as the WP Simple Pay Pro 3 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Simple Pay Pro 3 3.3.6\n"
+"Report-Msgid-Bugs-To: https://wpsimplepay.com/\n"
+"POT-Creation-Date: 2019-01-09 04:41:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/core/abstracts/form.php:272
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:85
+msgid "Pay %s"
+msgstr ""
+
+#: includes/core/admin/fields/checkbox.php:86
+#: includes/core/admin/pages/system-status.php:188
+#: includes/core/admin/pages/system-status.php:191
+#: includes/core/admin/pages/system-status.php:228
+#: includes/core/admin/pages/system-status.php:244
+#: includes/core/admin/pages/system-status.php:351
+#: includes/core/admin/pages/system-status.php:463
+#: includes/core/admin/pages/system-status.php:483
+#: includes/core/admin/pages/system-status.php:538
+#: includes/core/admin/pages/system-status.php:568
+#: includes/core/admin/pages/system-status.php:578
+#: includes/core/admin/pages/system-status.php:583
+#: includes/core/admin/pages/system-status.php:588
+#: includes/core/admin/pages/system-status.php:593
+msgid "Yes"
+msgstr ""
+
+#: includes/core/admin/menus.php:80
+msgid "Simple Pay Test Mode Active"
+msgstr ""
+
+#: includes/core/admin/menus.php:109
+msgid "Simple Pay Lite"
+msgstr ""
+
+#: includes/core/admin/menus.php:142
+msgid "Forms"
+msgstr ""
+
+#: includes/core/admin/menus.php:169 includes/core/admin/menus.php:216
+#: includes/core/admin/pages/main.php:156
+#: includes/core/admin/tables/form-list-table.php:31
+msgid "Payment Forms"
+msgstr ""
+
+#: includes/core/admin/menus.php:173 includes/core/admin/pages/main.php:146
+msgid "Add New"
+msgstr ""
+
+#: includes/core/admin/menus.php:177
+#: includes/core/admin/pages/system-status.php:122
+msgid "%s Settings"
+msgstr ""
+
+#: includes/core/admin/menus.php:177 includes/core/admin/menus.php:215
+msgid "Settings"
+msgstr ""
+
+#: includes/core/admin/menus.php:183
+#: includes/core/admin/pages/system-status.php:93
+msgid "System Report"
+msgstr ""
+
+#: includes/core/admin/menus.php:188 includes/core/admin/menus.php:219
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/core/admin/metaboxes/custom-fields.php:43
+#: includes/pro/admin/metaboxes/custom-fields.php:105
+msgid "Payment Button"
+msgstr ""
+
+#: includes/core/admin/metaboxes/settings.php:129
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:12
+msgid "Payment Options"
+msgstr ""
+
+#: includes/core/admin/metaboxes/settings.php:135
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:10
+msgid "Form Display Options"
+msgstr ""
+
+#: includes/core/admin/metaboxes/settings.php:141
+#: includes/pro/admin/metaboxes/views/tabs/tab-custom-form-fields.php:11
+msgid "Custom Form Fields"
+msgstr ""
+
+#: includes/core/admin/metaboxes/settings.php:147
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:10
+msgid "Stripe Checkout Display"
+msgstr ""
+
+#: includes/core/admin/metaboxes/settings.php:153
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:10
+msgid "Subscription Options"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:15
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:25
+#: includes/core/admin/metaboxes/views/tabs/tab-form-display.php:25
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:13
+msgid "Payment Button Text"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:33
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:43
+#: includes/core/admin/metaboxes/views/tabs/tab-form-display.php:43
+#: includes/core/forms/fields/payment-button.php:33
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:31
+msgid "Pay with Card"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:42
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:52
+#: includes/core/admin/metaboxes/views/tabs/tab-form-display.php:52
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:40
+msgid "Payment Button Processing Text"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:60
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:70
+#: includes/core/admin/metaboxes/views/tabs/tab-form-display.php:70
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:58
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:58
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:19
+#: includes/core/admin/metaboxes/views/tabs/tab-form-display.php:19
+msgid "On-Page Form Display"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:21
+msgid "One-Time Amount"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:68
+#: includes/core/admin/pages/general.php:90
+msgid "Payment Success Page"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:81
+msgid "Global Setting"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:82
+msgid "Specific Page"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:83
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:98
+msgid ""
+"By default, the payment success page indicated in Simple Pay > Settings > "
+"General will be used. This option allows you to specify an alternate page "
+"or URL for this payment form only."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:114
+msgid "Choose a page from your site to redirect to after a successful transaction."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:135
+msgid "Enter a custom redirect URL for successful transactions."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:18
+msgid "Logo/Image URL"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:37
+msgid "Add or Upload Image"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:40
+msgid ""
+"Upload or select a square image of your brand or product to show on the "
+"overlay. The recommended minimum size is 128x128px."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:45
+msgid "Remove image"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:53
+msgid "Enable Remember Me"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:70
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:13
+msgid "Checkout Button Text"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:86
+msgid ""
+"Text used for the final checkout button on the overlay (not the on-page "
+"payment button). Add %s where you'd like to show the amount. If %s is "
+"omitted, it will be appended at the end of the button text unless it is a "
+"free trial."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:96
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:40
+msgid "Verify Zip/Postal Code"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:115
+msgid "Enable Billing Address"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:140
+msgid "Enable Shipping Address"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:3
+msgid "Need your customers to sign up for recurring payments?"
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:6
+msgid ""
+"By upgrading to a WP Simple Pay Pro Business license, you can connect "
+"Stripe subscriptions to your payment forms. Also create installment plans, "
+"initial setup fees, and trial periods."
+msgstr ""
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:12
+msgid "Click here to Upgrade"
+msgstr ""
+
+#: includes/core/admin/notices.php:69
+msgid ""
+"SSL (HTTPS) is not enabled. You will not be able to process live Stripe "
+"transactions until SSL is enabled."
+msgstr ""
+
+#: includes/core/admin/notices.php:86
+msgid ""
+"WP Simple Pay now supports Stripe Connect for easier setup and improved "
+"security. <a href=\"%s\">Click here</a> to connect your Stripe account."
+msgstr ""
+
+#: includes/core/admin/notices.php:115
+msgid "Dismiss Notice"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:29 includes/core/installation.php:55
+msgid "Payment Confirmation"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:30
+msgid "Help docs for Payment Confirmation Settings"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:49
+msgid "Payment Confirmation Messages"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:78
+msgid "Configure your payment confirmation <em>page</em> below."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:79
+msgid "See how to configure email receipts in Stripe."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:90
+msgid "One-Time Payment"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:125
+msgid "Enter what your customers will see after a successful one-time payment."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:126 includes/pro/admin/pages.php:107
+#: includes/pro/admin/pages.php:125
+msgid "Available template tags:"
+msgstr ""
+
+#: includes/core/admin/pages/display.php:127
+msgid "The form's Item Description value."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:128
+msgid "The form's Company Name value."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:129
+msgid "The total price of the payment."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:130
+msgid "The charge date returned from Stripe."
+msgstr ""
+
+#: includes/core/admin/pages/display.php:131
+msgid "The unique charge ID returned from Stripe."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:29
+#: includes/core/admin/pages/general.php:49
+msgid "General"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:30
+msgid "Help docs for General Settings"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:52
+msgid "Currency Options"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:55
+msgid "Styles"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:58
+msgid "Misc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:98
+msgid ""
+"The page customers are sent to after completing a payment. The shortcode %s "
+"needs to be on this page. Output configured in the Payment Confirmation "
+"settings. This page should be excluded from any site caching."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:101
+msgid "Payment Failure Page"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:109
+msgid "The page customers are sent to after a failed payment."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:112
+msgid "Stripe Checkout Locale"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:118
+msgid ""
+"Specify auto-detect to display Stripe Checkout in the user's preferred "
+"language, if available. English will be used by default."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:118
+msgid "Stripe Checkout supported languages"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:138
+msgid "Currency"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:150
+msgid "Currency Position"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:155
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+msgid "Left (%1$s%2$s)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:157
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+msgid "Right (%1$s%2$s)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:159
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+msgid "Left with Space (%1$s %2$s)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:161
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+msgid "Right with Space (%1$s %2$s)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:169
+msgid "Separators"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:174
+msgid ""
+"Use a comma when formatting decimal amounts and use a period to separate "
+"thousands."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:176
+#. translators: 1. Example amount formatted with comma (,) as decimal
+#. separator, 2. Example amount formatted with period (.) as decimal separator
+msgid "If enabled, amounts will be formatted as \"%1$s\" instead of \"%2$s\"."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:184
+msgid "Payment Button Style"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:190 includes/pro/lite-helper.php:258
+msgid "Stripe blue"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:191 includes/pro/lite-helper.php:259
+msgid "None (inherit from theme)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:197
+msgid "Default Plugin Styles"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:203
+#: includes/core/admin/pages/keys.php:132
+#: includes/core/admin/pages/system-status.php:577
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:265
+msgid "Enabled"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:204
+#: includes/core/admin/pages/keys.php:133
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:36
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:266
+msgid "Disabled"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:208
+msgid ""
+"Optionally disable all payment form styles (CSS files) included with %s. "
+"Styles in the Stripe Checkout overlay cannot be changed."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:216
+msgid "Beta Versions"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:222
+msgid ""
+"Check this box to opt into update notifications for beta releases. This "
+"will allow you to use pre-release versions of WP Simple Pay."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:225
+msgid "Save Settings"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:231
+msgid ""
+"If UN-checked, all %s plugin data will be removed when the plugin is "
+"deleted. However, your data saved with Stripe will not be deleted."
+msgstr ""
+
+#: includes/core/admin/pages/general.php:248
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:249
+msgid "Afghan Afghani"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:250
+msgid "Albanian Lek"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:251
+msgid "Armenian Dram"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:252
+msgid "Netherlands Antillean Gulden"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:253
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:254
+msgid "Argentine Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:255
+msgid "Australian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:256
+msgid "Aruban Florin"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:257
+msgid "Azerbaijani Manat"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:258
+msgid "Bosnia & Herzegovina Convertible Mark"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:259
+msgid "Barbadian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:260
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:261
+#: includes/core/functions/shared.php:495
+msgid "Burundian Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:262
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:263
+msgid "Bermudian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:264
+msgid "Brunei Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:265
+msgid "Bolivian Boliviano"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:266
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:267
+msgid "Bahamian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:268
+msgid "Botswana Pula"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:269
+msgid "Belize Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:270
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:271
+msgid "Congolese Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:272
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:273
+#: includes/core/functions/shared.php:496
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:274
+msgid "Chinese Renminbi Yuan"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:275
+msgid "Colombian Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:276
+msgid "Costa Rican Colón"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:277
+msgid "Cape Verdean Escudo"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:278
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:279
+#: includes/core/functions/shared.php:497
+msgid "Djiboutian Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:280
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:281
+msgid "Dominican Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:282
+msgid "Algerian Dinar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:283
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:284
+msgid "Ethiopian Birr"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:285
+msgid "Euro"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:286
+msgid "Fijian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:287
+msgid "Falkland Islands Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:288
+msgid "British Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:289
+msgid "Georgian Lari"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:290
+msgid "Gibraltar Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:291
+msgid "Gambian Dalasi"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:292
+#: includes/core/functions/shared.php:498
+msgid "Guinean Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:293
+msgid "Guatemalan Quetzal"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:294
+msgid "Guyanese Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:295
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:296
+msgid "Honduran Lempira"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:297
+msgid "Croatian Kuna"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:298
+msgid "Haitian Gourde"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:299
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:300
+msgid "Indonesian Rupiah"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:301
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:302
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:303
+msgid "Icelandic Króna"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:304
+msgid "Jamaican Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:305
+#: includes/core/functions/shared.php:499
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:306
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:307
+msgid "Kyrgyzstani Som"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:308
+msgid "Cambodian Riel"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:309
+#: includes/core/functions/shared.php:500
+msgid "Comorian Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:310
+#: includes/core/functions/shared.php:501
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:311
+msgid "Cayman Islands Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:312
+msgid "Kazakhstani Tenge"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:313
+msgid "Lao Kip"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:314
+msgid "Lebanese Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:315
+msgid "Sri Lankan Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:316
+msgid "Liberian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:317
+msgid "Lesotho Loti"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:318
+msgid "Moroccan Dirham"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:319
+msgid "Moldovan Leu"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:320
+#: includes/core/functions/shared.php:502
+msgid "Malagasy Ariary"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:321
+msgid "Macedonian Denar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:322
+msgid "Mongolian Tögrög"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:323
+msgid "Macanese Pataca"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:324
+msgid "Mauritanian Ouguiya"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:325
+msgid "Mauritian Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:326
+msgid "Maldivian Rufiyaa"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:327
+msgid "Malawian Kwacha"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:328
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:329
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:330
+msgid "Mozambican Metical"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:331
+msgid "Namibian Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:332
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:333
+msgid "Nicaraguan Córdoba"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:334
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:335
+msgid "Nepalese Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:336
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:337
+msgid "Panamanian Balboa"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:338
+msgid "Peruvian Nuevo Sol"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:339
+msgid "Papua New Guinean Kina"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:340
+msgid "Philippine Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:341
+msgid "Pakistani Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:342
+msgid "Polish Złoty"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:343
+#: includes/core/functions/shared.php:503
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:344
+msgid "Qatari Riyal"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:345
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:346
+msgid "Serbian Dinar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:347
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:348
+#: includes/core/functions/shared.php:504
+msgid "Rwandan Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:349
+msgid "Saudi Riyal"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:350
+msgid "Solomon Islands Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:351
+msgid "Seychellois Rupee"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:352
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:353
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:354
+msgid "Saint Helenian Pound"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:355
+msgid "Sierra Leonean Leone"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:356
+msgid "Somali Shilling"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:357
+msgid "Surinamese Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:358
+msgid "São Tomé and Príncipe Dobra"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:359
+msgid "Salvadoran Colón"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:360
+msgid "Swazi Lilangeni"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:361
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:362
+msgid "Tajikistani Somoni"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:363
+msgid "Tongan Paʻanga"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:364
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:365
+msgid "Trinidad and Tobago Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:366
+msgid "New Taiwan Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:367
+msgid "Tanzanian Shilling"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:368
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:369
+msgid "Ugandan Shilling"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:370
+msgid "United States Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:371
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:372
+msgid "Uzbekistani Som"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:373
+msgid "Vietnamese Đồng"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:374
+#: includes/core/functions/shared.php:506
+msgid "Vanuatu Vatu"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:375
+msgid "Samoan Tala"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:376
+#: includes/core/functions/shared.php:507
+msgid "Central African Cfa Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:377
+msgid "East Caribbean Dollar"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:378
+#: includes/core/functions/shared.php:508
+msgid "West African Cfa Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:379
+#: includes/core/functions/shared.php:509
+msgid "Cfp Franc"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:380
+msgid "Yemeni Rial"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:381
+msgid "South African Rand"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:382
+msgid "Zambian Kwacha"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:394
+msgid "English (en) (default)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:395
+msgid "Auto-detect locale"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:396
+msgid "Simplified Chinese (zh)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:397
+msgid "Danish (da)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:398
+msgid "Dutch (nl)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:399
+msgid "Finnish (fi)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:400
+msgid "French (fr)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:401
+msgid "German (de)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:402
+msgid "Italian (it)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:403
+msgid "Japanese (ja)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:404
+msgid "Norwegian (no)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:405
+msgid "Spanish (es)"
+msgstr ""
+
+#: includes/core/admin/pages/general.php:406
+msgid "Swedish (sv)"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:29
+msgid "Stripe Setup"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:30
+msgid "Help docs for Stripe Keys Settings"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:90
+msgid "test"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:90
+msgid "live"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:104
+msgid "Connect with Stripe"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:105
+msgid ""
+"Have questions about connecting with Stripe? See the <a href=\"%s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>."
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:109
+msgid ""
+"Your Stripe account is connected in %s mode. If you need to reconnect in %s "
+"mode, <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:113
+msgid "<a href=\"#\">Click here</a> to manage your API keys manually."
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:114
+msgid "<a href=\"#\">Click here</a> to hide your API keys."
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:118
+msgid "Connection Status"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:128
+#: includes/core/admin/pages/system-status.php:167
+#: includes/core/functions/shared.php:296
+msgid "Test Mode"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:139
+msgid ""
+"While in test mode no live payments are processed. Make sure Test mode is "
+"enabled in your <a href=\"%1$s\" target=\"_blank\">Stripe dashboard</a> to "
+"view your test transactions."
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:148
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:157
+#: includes/core/admin/pages/keys.php:169
+#: includes/core/admin/pages/keys.php:185
+#: includes/core/admin/pages/keys.php:197
+msgid "Starts with"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:160
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:176
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/core/admin/pages/keys.php:188
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:79
+msgid "Form Updated."
+msgstr ""
+
+#: includes/core/admin/pages/main.php:83
+msgid "Draft saved."
+msgstr ""
+
+#: includes/core/admin/pages/main.php:188
+msgid "Edit Payment Form"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:217
+msgid "Add New Payment Form"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:244
+#: includes/core/admin/pages/main.php:245
+msgid "Enter title here"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:288
+msgid "Create"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:290
+msgid "Update"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:307
+msgid "Save Draft"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:319
+#: includes/core/admin/tables/form-list-table.php:231
+msgid "Preview"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:320
+msgid "Preview saved changes"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:329
+msgid "Status:"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:352
+#: includes/core/admin/tables/form-list-table.php:789
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:376
+msgid "Payment Form Shortcode"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:395
+#: includes/core/admin/tables/form-list-table.php:62
+#: includes/core/admin/tables/form-list-table.php:597
+#: includes/core/admin/tables/form-list-table.php:704
+msgid "Draft"
+msgstr ""
+
+#: includes/core/admin/pages/main.php:397
+#: includes/core/admin/tables/form-list-table.php:57
+#: includes/core/admin/tables/form-list-table.php:706
+msgid "Published"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:49
+msgid "Cannot test TLS 1.2 support until your Stripe Test Secret Key is entered."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:64
+msgid "TLS 1.2 is supported. No action required."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:73
+msgid "TLS 1.2 is not supported. You will need to upgrade your integration."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:76
+msgid "See %1$s."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:78
+msgid "<a href=\"%s\" target=\"_blank\">Please read this</a> for more information."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:97
+msgid "Please copy and paste this information when contacting support:"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:103
+msgid ""
+"You can also download your information as a text file to attach, or simply "
+"view it below."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:107
+msgid "Download System Report"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:118
+msgid "WordPress Installation"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:126
+msgid "Active Theme"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:130
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:134
+msgid "Server Environment"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:138
+msgid "Client Information"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:153
+msgid "%s Version"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:160
+msgid "Stripe TLS"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:171
+msgid "Live Mode"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:176
+msgid "Simple Pay Test or Live Mode"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:186
+#: includes/core/admin/pages/system-status.php:244
+#: includes/core/admin/pages/system-status.php:351
+#: includes/core/admin/pages/system-status.php:466
+#: includes/core/admin/pages/system-status.php:486
+#: includes/core/admin/pages/system-status.php:568
+#: includes/core/admin/pages/system-status.php:578
+#: includes/core/admin/pages/system-status.php:583
+#: includes/core/admin/pages/system-status.php:588
+#: includes/core/admin/pages/system-status.php:593
+msgid "No"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:198
+msgid ""
+"%1$s - It is recommendend to set memory to at least 40MB. See: <a "
+"href=\"%2$s\" target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:210
+msgid "Site Name"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:215
+msgid "Home URL"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:220
+msgid "Site URL"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:226
+msgid "SSL/HTTPS Enabled"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:228
+msgid "No. SSL is required by Stripe for Live mode."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:232
+#: includes/core/admin/pages/system-status.php:313
+#: includes/core/admin/pages/system-status.php:333
+#: includes/core/admin/pages/system-status.php:406
+msgid "Version"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:237
+msgid "Locale"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:242
+msgid "Multisite"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:248
+msgid "Permalinks"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:254
+msgid "WP Memory Limit"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:260
+msgid "WP Debug Mode"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:265
+msgid "Script Debug"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:303
+#: includes/core/admin/pages/system-status.php:395
+msgid "%s is available"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:309
+#: includes/core/admin/pages/system-status.php:329
+msgid "Name"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:311
+#: includes/core/admin/pages/system-status.php:331
+#: includes/core/admin/pages/system-status.php:404
+msgid "Author"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:343
+msgid "Theme Information"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:349
+msgid "Child Theme"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:355
+msgid "Parent Theme"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:428
+msgid "WordPress.org recommends upgrading to PHP 7 or higher for better security."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:428
+msgid "Read more."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:436
+msgid "Cannot connect to MySQL database."
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:449
+msgid "Server default timezone is %s - it should be UTC"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:513
+msgid "Web Server"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:518
+msgid "PHP Version"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:524
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:530
+msgid "Server Timezone"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:536
+msgid "Display Errors"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:542
+msgid "Server PHP Memory Limit"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:547
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:552
+msgid "Post Max Size"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:557
+msgid "Max Execution Time"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:562
+msgid "Max Input Vars"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:567
+msgid "cURL Enabled"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:572
+msgid "cURL Version"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:577
+msgid "Multibyte String"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:597
+msgid "WP Remote POST"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:603
+msgid "WP Remote GET"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:619
+msgid "Name:"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:621
+msgid "Version:"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:623
+msgid "User Agent:"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:625
+msgid "Platform:"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:634
+msgid "IP Address"
+msgstr ""
+
+#: includes/core/admin/pages/system-status.php:639
+msgid "Browser"
+msgstr ""
+
+#: includes/core/admin/pages.php:90
+#. Translators: 1. The plugin name
+msgid ""
+"If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge "
+"thanks in advance!"
+msgstr ""
+
+#: includes/core/admin/pages.php:92
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:30
+msgid "Payment Form"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:49
+msgid "All"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:67
+#: includes/core/admin/tables/form-list-table.php:192
+msgid "Trash"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:209
+msgid "Edit"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:252
+#: includes/core/admin/tables/form-list-table.php:782
+msgid "Restore"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:276
+#: includes/core/admin/tables/form-list-table.php:783
+msgid "Permanently Delete"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:298
+msgid "Duplicate"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:396
+msgid "Form duplicated."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:400
+msgid "An error occurred while trying to duplicate. Please try again."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:472
+msgid "Form restored from the Trash."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:491
+msgid "%d form restored from the Trash."
+msgid_plural "%d forms restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/tables/form-list-table.php:502
+msgid "Form moved to the Trash."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:521
+msgid "%d form moved to the Trash."
+msgid_plural "%d forms moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/tables/form-list-table.php:532
+msgid "Form permanently deleted."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:551
+msgid "%d form permanently delted."
+msgid_plural "%d forms permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/tables/form-list-table.php:572
+msgid "%d form permanently deleted."
+msgid_plural "%d forms permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/tables/form-list-table.php:579
+msgid "No forms found."
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:591
+#: includes/core/functions/admin.php:175
+#. translators: (no title) is the default placed in the dropdown for the form
+#. list button on posts/pages if the form was not named
+msgid "(no title)"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:633
+msgid "Search"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:656
+msgid "Empty Trash"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:749
+msgid "Title"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:750
+msgid "Shortcode"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:751
+msgid "Date"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:858
+msgid "Not authorized"
+msgstr ""
+
+#: includes/core/admin/tables/form-list-table.php:868
+#: includes/core/admin/tables/form-list-table.php:877
+#: includes/core/admin/tables/form-list-table.php:886
+msgid "Not Authorized"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:165
+msgid "List View"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:166
+msgid "Excerpt View"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:346
+msgid "No items found."
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:473
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:475
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:485
+#: includes/pro/forms/fields/coupon.php:51
+msgid "Apply"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:535
+#: includes/core/admin/wp-list-table.php:1336
+msgid "Show more details"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:598
+msgid "Filter by date"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:600
+msgid "All dates"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:613
+#. translators: 1: month name, 2: 4-digit year
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:665
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/wp-list-table.php:666
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/wp-list-table.php:667
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/wp-list-table.php:672
+#: includes/core/admin/wp-list-table.php:684
+#: includes/core/admin/wp-list-table.php:697
+msgid "No comments"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:684
+msgid "No approved comments"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:697
+msgid "No pending comments"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:774
+#: includes/core/admin/wp-list-table.php:1361
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/admin/wp-list-table.php:810
+msgid "First page"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:820
+msgid "Previous page"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:827
+#: includes/core/admin/wp-list-table.php:830
+msgid "Current Page"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:843
+msgid "Next page"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:853
+msgid "Last page"
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:1081
+msgid "Select All"
+msgstr ""
+
+#: includes/core/errors.php:122 includes/pro/edd-sl-plugin-updater.php:472
+msgid "Error"
+msgstr ""
+
+#: includes/core/forms/default-form.php:196
+#: includes/pro/forms/pro-form.php:1013
+msgid "Please wait..."
+msgstr ""
+
+#: includes/core/forms/preview.php:57
+msgid "Simple Pay Preview"
+msgstr ""
+
+#: includes/core/forms/preview.php:69
+msgid "You must be logged in to preview a form."
+msgstr ""
+
+#: includes/core/functions/admin.php:35
+msgid ""
+"There was an error getting your Stripe credentials. Please <a "
+"href=\"%s\">try again</a>. If you continue to have this problem, please "
+"contact support."
+msgstr ""
+
+#: includes/core/functions/admin.php:104 includes/core/functions/admin.php:142
+msgid "Insert Payment Form"
+msgstr ""
+
+#: includes/core/functions/admin.php:137
+msgid "Select a payment form to add to your post or page."
+msgstr ""
+
+#: includes/core/functions/admin.php:143
+msgid "Cancel"
+msgstr ""
+
+#: includes/core/functions/admin.php:366
+msgid "Click to select. Then press %s to copy."
+msgstr ""
+
+#: includes/core/functions/shared.php:474
+msgid "Insert Media"
+msgstr ""
+
+#: includes/core/functions/shared.php:475
+msgid "Use Image"
+msgstr ""
+
+#: includes/core/functions/shared.php:505
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: includes/core/functions/shared.php:737 includes/pro/lite-helper.php:94
+msgid "Thanks for your purchase. Here are the details of your payment:"
+msgstr ""
+
+#: includes/core/functions/shared.php:738 includes/pro/lite-helper.php:95
+#: includes/pro/lite-helper.php:104
+msgid "Item:"
+msgstr ""
+
+#: includes/core/functions/shared.php:739 includes/pro/lite-helper.php:96
+#: includes/pro/lite-helper.php:105
+msgid "Purchased From:"
+msgstr ""
+
+#: includes/core/functions/shared.php:740 includes/pro/lite-helper.php:97
+msgid "Payment Date:"
+msgstr ""
+
+#: includes/core/functions/shared.php:741
+msgid "Payment Amount: "
+msgstr ""
+
+#: includes/core/installation.php:64
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/core/installation.php:66
+#. translators: %s: The [simpay_errors] shortcode
+msgid ""
+"%sWe're sorry, but your transaction failed to process. Please try again or "
+"contact site support."
+msgstr ""
+
+#: includes/core/main.php:51 includes/core/main.php:58 includes/pro/main.php:41
+#: includes/pro/main.php:48
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:85
+msgid "Card Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:89
+msgid "Rate Limit Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:93
+msgid "Invalid Request Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:98
+msgid "Authentication Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:102
+msgid "Stripe API Connection Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:107
+msgid "Stripe Error"
+msgstr ""
+
+#: includes/core/payments/stripe-api.php:111
+msgid "General Error"
+msgstr ""
+
+#: includes/core/shortcodes.php:191
+msgid ""
+"An error occurred, but your charge may have gone through. Please contact "
+"the site admin."
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:66
+msgid "Deactivate"
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:70
+msgid "Activate"
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:75
+msgid "A valid license key is required for access to automatic updates and support."
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:81
+msgid "License status: %s"
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:93
+msgid "Want to connect Stripe subscriptions to your payment forms?"
+msgstr ""
+
+#: includes/pro/admin/fields/license.php:97
+msgid "Upgrade Your License Now"
+msgstr ""
+
+#: includes/pro/admin/menus.php:34
+msgid "Simple Pay Pro"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:45
+msgid "Customer Name"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:49
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:50
+#: includes/pro/lite-helper.php:710
+msgid "Email"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:53
+msgid "Card"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:57
+msgid "Address"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:61
+msgid "Text Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:65
+msgid "Dropdown Select"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:69
+msgid "Radio Button Select"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:73
+msgid "Date Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:77
+msgid "Number Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:81
+msgid "Checkbox"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:85
+msgid "Coupon Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:89
+msgid "Custom Amount Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:93
+msgid "Subscription Plan Select"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:97
+msgid "Recurring Amount Toggle"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:101
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:13
+msgid "Total Amount Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:109
+msgid "Checkout Button"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:138
+msgid "Add a field, label or button"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:141
+#: includes/pro/admin/metaboxes/views/tabs/tab-multi-subs.php:21
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:100
+msgid "Select"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:150
+msgid "Add"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:261
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/custom-fields.php:288
+msgid "Remove Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:105
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:132
+msgid "Minimum Custom Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:144
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:171
+msgid "Default Custom Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:180
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:208
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:358
+msgid "The custom amount field will load with this amount set by default."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:197
+msgid "Amount Type"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:220
+msgid "One-Time Set Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:221
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:108
+msgid "One-Time Custom Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:233
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:44
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:64
+msgid ""
+"<a href=\"%1$s\" class=\"%2$s\" data-show-tab=\"%3$s\">See Subscription "
+"Options</a> to set a recurring amount."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:245
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:80
+msgid "Subscriptions are currently enabled."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:247
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:82
+msgid "A Dropdown Select custom field using amount is enabled."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:249
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:84
+msgid "A Radio Button Select custom field using amount is enabled."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/settings.php:255
+#: includes/pro/admin/metaboxes/views/tabs/tab-payment-options.php:93
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade your license</a> to connect Stripe "
+"subscriptions to your payment forms."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:13
+msgid "Billing Address Heading"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:31
+msgid "Heading displayed above the entire billing address."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:40
+msgid "Street Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:67
+msgid "Street Placeholder"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:77
+msgid "Street"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:93
+msgid "City Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:119
+msgid "City Placeholder"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:129
+msgid "City"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:144
+msgid "State/Province/Region Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:170
+msgid "State/Province Placeholder"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:180
+msgid "State"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:195
+msgid "Zip/Postal Code Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:221
+msgid "Zip/Postal Code Placeholder"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:231
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:246
+msgid "Country Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:272
+msgid "Default Country"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:299
+msgid "Address Required"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:321
+msgid "Collect Shipping Address"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:348
+msgid "Shipping Address Heading"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:366
+msgid "Heading displayed above the entire shipping address."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:376
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:77
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:111
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:68
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:67
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:53
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:88
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:116
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:239
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:67
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:216
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:68
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:58
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:218
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:111
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:195
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:149
+msgid "Field ID:"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:13
+msgid "Form Field Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:69
+msgid ""
+"Inline Zip/Postal code will not be enabled if an Address field is present "
+"on the payment form."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:31
+msgid "Label displayed next to this checkbox on the payment form. May contain HTML."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:66
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:66
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:66
+msgid "Required Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:61
+msgid "Default to Checked"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:82
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:87
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:210
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:187
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:189
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:166
+msgid "Stripe Metadata Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:31
+#: includes/pro/forms/fields/checkout-button.php:60
+msgid "Pay {{amount}}"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:40
+msgid "Checkout Button Processing Text"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:40
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:40
+msgid "Placeholder"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:50
+msgid "Coupon code"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:45
+msgid ""
+"This is just a placeholder where the Custom Amount field, if enabled, will "
+"be displayed on the form."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:50
+#: includes/pro/lite-helper.php:694
+msgid "Full name"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:61
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:90
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:87
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:69
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:87
+msgid "Default Value"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:61
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:40
+msgid "Options"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:83
+msgid "A comma separated list of options to fill the dropdown with."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:112
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:91
+msgid ""
+"Option to be selected by default. Will be first in list if left blank or no "
+"match."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:119
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:98
+msgid "Quantity or Amount Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:139
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:118
+msgid "Not Used"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:140
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:119
+msgid "Quantity (Multiplier)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:141
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:120
+msgid "Amount (User Selects)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:151
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:130
+msgid "Quantities"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:173
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:152
+msgid ""
+"A comma separated list of quantity values to multiply the amount by (i.e. "
+"\"1,5,10\"). Needs to match the number of options and their order."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:180
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:159
+msgid "Amounts"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:203
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:182
+msgid ""
+"A comma separated list of amounts without the \"%s\" symbol (i.e. "
+"\"2.00,4.50,9.00\"). Needs to match the number of options and their order."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:112
+msgid "Minimum"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:137
+msgid "Maximum"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:162
+msgid "Quantity Field"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:180
+msgid "Enable to multiply the amount by this value."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:41
+msgid ""
+"This is just a placeholder where the Subscription multi-plan select field, "
+"if enabled, will be displayed on the form. If you enabled a custom amount "
+"field within the plan selection, it will also be displayed here."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:62
+msgid "A comma separated list of options to fill the radio button list with."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:30
+#: includes/pro/forms/fields/recurring-amount-toggle.php:32
+msgid "Make this a recurring amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:32
+msgid "The label that will appear on the checkbox."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:41
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:365
+msgid "Interval/Frequency"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:69
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:393
+msgid "Month(s)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:70
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:394
+msgid "Week(s)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:71
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:395
+msgid "Day(s)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:72
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:396
+msgid "Year(s)"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:82
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:170
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:475
+msgid "Max Charges"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:101
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:499
+msgid ""
+"The number of times this subscription should be charged. It will "
+"automatically cancel after it reaches the max number. Leave blank for "
+"indefinite."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:112
+msgid "Multi-line"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:131
+msgid "Set to a paragraph text field. Limited to 500 characters by Stripe."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:140
+msgid "Rows"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:31
+#: includes/pro/forms/fields/total-amount.php:65
+msgid "Total Amount:"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:40
+msgid "Show Recurring Total"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:67
+msgid "Recurring Total Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:85
+#: includes/pro/forms/fields/total-amount.php:87
+msgid "Recurring Total:"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:94
+msgid "Show Tax Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:121
+msgid "Tax Amount Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:139
+msgid "Total Tax:"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-custom-form-fields.php:23
+msgid "Help docs for Custom Form Fields"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:17
+msgid "Form Display Type"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:37
+msgid "Embedded"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:38
+msgid "Overlay"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:39
+msgid "Stripe Checkout"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:51
+msgid "Company Name"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:65
+msgid "Also used for the form heading."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:73
+msgid "Item Description"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:87
+msgid "Also used for the form subheading."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:97
+msgid ""
+"Configure your Stripe Checkout form in the <a href=\"%1$s\" class=\"%2$s\" "
+"data-show-tab=\"%3$s\">Stripe Checkout Display</a> options."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:111
+msgid "Help docs for Form Display Options"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-multi-subs.php:129
+msgid "Remove plan"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:16
+msgid "Subscription Plans"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:34
+msgid "Set Single Plan"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:35
+msgid "User Selects Plan"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:59
+msgid ""
+"While in <strong>Test Mode</strong> you may only select plans from your <a "
+"href=\"%1$s\" target=\"_blank\">Stripe Test Plans</a>. Before switching to "
+"Live Mode, make sure the same plans (with the exact same IDs) are created "
+"in your <a href=\"%2$s\" target=\"_blank\">Stripe Live Plans</a>."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:75
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:152
+msgid "Select Plan"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:105
+msgid ""
+"You need to enter your Stripe API Keys for your plan list to be pulled "
+"automatically. <a href=\"%s\">Enter your keys here</a>"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:117
+msgid "Display Style"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:131
+msgid "Radio"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:132
+msgid "Dropdown"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:156
+msgid "Custom Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:163
+#: includes/pro/payments/subscription.php:288
+#: includes/pro/payments/subscription.php:395
+msgid "Setup Fee"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:177
+msgid "Default"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:230
+msgid "Add Plan"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:233
+msgid ""
+"You need to enter your Stripe API Keys before you can start adding plans. "
+"<a href=\"%s\">Enter your keys here</a>"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:248
+msgid "Custom Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:281
+msgid "Minimum Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:320
+msgid "Default Amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:406
+msgid "Custom Amount Plan Label"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:420
+#: includes/pro/forms/pro-form.php:752
+msgid "Other amount"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:433
+msgid "Plan Setup Fee"
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:468
+msgid "An optional amount to add to the first payment only."
+msgstr ""
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:507
+msgid "Help docs for Subscription Options"
+msgstr ""
+
+#: includes/pro/admin/notices.php:33
+#. translators: This is part of the admin notice for missing license keys. The
+#. full string is "Your WP Simple Pay Pro 3 license key is invalid, inactive or
+#. missing. Please enter and activate your license key to enable automatic
+#. updates."
+msgid "Your WP Simple Pay Pro 3 license key is invalid, inactive or missing. Please"
+msgstr ""
+
+#: includes/pro/admin/notices.php:34
+msgid "enter and activate"
+msgstr ""
+
+#: includes/pro/admin/notices.php:35
+msgid "your license key to enable automatic updates."
+msgstr ""
+
+#: includes/pro/admin/notices.php:53
+msgid ""
+"It looks like you have switched to test mode. Make sure the correct "
+"subscription plans and coupons exist in your test <a href=\"%s\" "
+"target=\"_blank\">Stripe account</a>."
+msgstr ""
+
+#: includes/pro/admin/notices.php:60
+msgid ""
+"It looks like you have switched to live mode. Make sure the correct "
+"subscription plans and coupons exist in your live <a href=\"%s\" "
+"target=\"_blank\">Stripe account</a>."
+msgstr ""
+
+#: includes/pro/admin/notices.php:84
+msgid "WP Simple Pay is increasing its PHP version requirement"
+msgstr ""
+
+#: includes/pro/admin/notices.php:85
+msgid ""
+"WP Simple Pay will be increasing its PHP requirement to version 5.6 or "
+"higher in version 3.4. It looks like you're using version %s, which means "
+"you will need to upgrade your version of PHP before upgrading. Newer "
+"versions of PHP are both faster and more secure. The version you're using "
+"<a href=\"%s\" target=\"_blank\">no longer receives security updates</a>, "
+"which is another great reason to update."
+msgstr ""
+
+#: includes/pro/admin/notices.php:86
+msgid "Which version should I upgrade to?"
+msgstr ""
+
+#: includes/pro/admin/notices.php:87
+msgid ""
+"In order to be compatible with future versions of WP Simple Pay, you should "
+"update your PHP version to 5.6, 7.0, 7.1, or 7.2. On a normal WordPress "
+"site, switching to PHP 5.6 should never cause issues. We would however "
+"actually recommend you switch to PHP 7.1 or higher to receive the full "
+"speed and security benefits provided to more modern and fully supported "
+"versions of PHP. However, some plugins may not be fully compatible with PHP "
+"7+, so more testing may be required."
+msgstr ""
+
+#: includes/pro/admin/notices.php:88
+msgid "Need help upgrading? Ask your web host!"
+msgstr ""
+
+#: includes/pro/admin/notices.php:89
+msgid ""
+"Many web hosts can give you instructions on how/where to upgrade your "
+"version of PHP through their control panel, or may even be able to do it "
+"for you. If you need to change hosts, please see <a href=\"%s\" "
+"target=\"_blank\">our hosting recommendations</a>."
+msgstr ""
+
+#: includes/pro/admin/pages/license.php:22
+msgid "License"
+msgstr ""
+
+#: includes/pro/admin/pages/license.php:23
+msgid "Help docs for License Settings"
+msgstr ""
+
+#: includes/pro/admin/pages/license.php:67
+msgid ""
+"Your license key is used for access to automatic upgrades and premium "
+"support."
+msgstr ""
+
+#: includes/pro/admin/pages/license.php:69
+msgid ""
+"Retrieve your license key from <a href=\"%s\" target=\"_blank\">your WP "
+"Simple Pay account</a> or purchase receipt email."
+msgstr ""
+
+#: includes/pro/admin/pages/license.php:80
+msgid "License Key"
+msgstr ""
+
+#: includes/pro/admin/pages.php:69
+msgid "Subscription without Trial"
+msgstr ""
+
+#: includes/pro/admin/pages.php:78
+msgid "Subscription with Free Trial"
+msgstr ""
+
+#: includes/pro/admin/pages.php:106
+msgid ""
+"Enter what your customers will see after a successful subscription plan "
+"payment."
+msgstr ""
+
+#: includes/pro/admin/pages.php:108
+msgid "The recurring amount to be charged each period of the subscription plan."
+msgstr ""
+
+#: includes/pro/admin/pages.php:109
+msgid "The total number of max charges set for an installment plan."
+msgstr ""
+
+#: includes/pro/admin/pages.php:124
+msgid ""
+"Enter what your customers will see after a successful subscription trial "
+"sign up."
+msgstr ""
+
+#: includes/pro/admin/pages.php:126
+msgid "The day the plan's free trial ends."
+msgstr ""
+
+#: includes/pro/edd-sl-plugin-updater.php:231
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/pro/edd-sl-plugin-updater.php:239
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/pro/edd-sl-plugin-updater.php:472
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/pro/forms/ajax.php:51
+msgid "Coupon is invalid."
+msgstr ""
+
+#: includes/pro/forms/ajax.php:94
+msgid "Coupon entered puts the total below the required minimum amount."
+msgstr ""
+
+#: includes/pro/forms/fields/address.php:136
+msgid "Same billing & shipping info"
+msgstr ""
+
+#: includes/pro/forms/fields/coupon.php:69
+msgid "remove"
+msgstr ""
+
+#: includes/pro/forms/fields/dropdown.php:116
+#: includes/pro/forms/fields/radio.php:114
+msgid "You have entered non-numerical characters into your quantities."
+msgstr ""
+
+#: includes/pro/forms/fields/dropdown.php:125
+#: includes/pro/forms/fields/dropdown.php:197
+#: includes/pro/forms/fields/radio.php:195
+msgid ""
+"You have a mismatched number of options and amounts. Please correct this "
+"for the dropdown to appear."
+msgstr ""
+
+#: includes/pro/forms/fields/dropdown.php:188
+#: includes/pro/forms/fields/radio.php:191
+msgid "You have entered non-numerical characters into your amounts."
+msgstr ""
+
+#: includes/pro/forms/fields/radio.php:123
+msgid ""
+"You have a mismatched number of options and quantities. Please correct this "
+"for the dropdown to appear."
+msgstr ""
+
+#: includes/pro/forms/fields/total-amount.php:115
+msgid "Tax Amount:"
+msgstr ""
+
+#: includes/pro/forms/pro-form.php:312
+msgid "You have not set any plans to choose from."
+msgstr ""
+
+#: includes/pro/forms/pro-form.php:356 includes/pro/forms/pro-form.php:425
+msgid "The plan <strong>%1$s</strong> does not exist."
+msgstr ""
+
+#: includes/pro/forms/pro-form.php:371 includes/pro/forms/pro-form.php:440
+#: includes/pro/functions/admin.php:78 includes/pro/payments/details.php:139
+msgid "%1$s/%3$s"
+msgid_plural "%1$s every %2$d %3$ss"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pro/forms/pro-form.php:841 includes/pro/lite-helper.php:347
+msgid "Start Your Free Trial"
+msgstr ""
+
+#: includes/pro/forms/pro-form.php:930
+msgid "You have not selected a plan."
+msgstr ""
+
+#: includes/pro/forms/pro-form.php:1053 includes/pro/forms/pro-form.php:1055
+#. translators: message displayed on front-end for amount below minimum amount
+#. for one-time payment custom amount field
+#. translators: message displayed on front-end for amount below minimum amount
+#. for subscription custom amount field
+msgid "The minimum amount allowed is %s"
+msgstr ""
+
+#: includes/pro/functions/admin.php:95
+msgid ""
+"In order for Max Charges to function correctly, you must set up a Stripe "
+"webhook endpoint."
+msgstr ""
+
+#: includes/pro/functions/admin.php:96
+msgid "Your webhook URL: %s"
+msgstr ""
+
+#: includes/pro/functions/admin.php:97
+msgid "See our documentation for a step-by-step guide."
+msgstr ""
+
+#: includes/pro/functions/admin.php:113
+msgid ""
+"Label displayed above this field on the payment form. Leave blank if using "
+"only placeholders."
+msgstr ""
+
+#: includes/pro/functions/admin.php:120
+msgid "i.e. inline label"
+msgstr ""
+
+#: includes/pro/functions/admin.php:127
+msgid ""
+"Used to identify this field within Stripe payment records. Not displayed on "
+"the payment form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:98
+msgid "Initial Payment Amount:"
+msgstr ""
+
+#: includes/pro/lite-helper.php:99 includes/pro/lite-helper.php:107
+msgid "Recurring Payment Amount: "
+msgstr ""
+
+#: includes/pro/lite-helper.php:103
+msgid ""
+"Thanks for subscribing. Your card will not be charged until your free trial "
+"ends."
+msgstr ""
+
+#: includes/pro/lite-helper.php:106
+msgid "Trial End Date:"
+msgstr ""
+
+#: includes/pro/lite-helper.php:116
+msgid "The calculated tax amount based on the total and the tax percent setting."
+msgstr ""
+
+#: includes/pro/lite-helper.php:158
+msgid ""
+"SSL (HTTPS) is not enabled. You will not be able to process live Stripe "
+"transactions until SSL is enabled. <a href=\"%1$s\" "
+"target=\"_blank\">Review the system requirements</a> for WP Simple Pay Pro."
+msgstr ""
+
+#: includes/pro/lite-helper.php:203
+msgid "Date Format"
+msgstr ""
+
+#: includes/pro/lite-helper.php:209
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Date format options</a> (uses jQuery UI "
+"Datepicker)"
+msgstr ""
+
+#: includes/pro/lite-helper.php:228
+msgid "Tax Rate Percentage"
+msgstr ""
+
+#: includes/pro/lite-helper.php:243
+msgid ""
+"Enter a tax rate as a percentage to add to the charged amount (i.e. for "
+"7.5% tax enter 7.5)."
+msgstr ""
+
+#: includes/pro/lite-helper.php:252
+msgid "Coupon Apply Button Style"
+msgstr ""
+
+#: includes/pro/lite-helper.php:263
+msgid ""
+"Both the Payment & Coupon Apply Button Style options apply to the \"Stripe "
+"Checkout + Custom Forms\" payment form display type only."
+msgstr ""
+
+#: includes/pro/lite-helper.php:286
+msgid "You may only add one Payment Button field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:287
+msgid "You may only add one Custom Amount Field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:288
+msgid "You may only add one Subscription Plan Select field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:289
+msgid "You may only add one Coupon field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:290
+msgid "You may only add one Recurring Amount Toggle field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:291
+msgid "You may only add one Email field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:292
+msgid "You may only add one Card field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:293
+msgid "You may only add one Postal/Zip Code field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:294
+msgid "You may only add one Checkout Button field per form."
+msgstr ""
+
+#: includes/pro/lite-helper.php:295
+msgid "The maximum number of fields is 20."
+msgstr ""
+
+#: includes/pro/lite-helper.php:311
+msgid "Help docs for Payment Options"
+msgstr ""
+
+#: includes/pro/lite-helper.php:318
+msgid "Help docs for Stripe Checkout Display"
+msgstr ""
+
+#: includes/pro/lite-helper.php:332
+msgid "Trial Button Text"
+msgstr ""
+
+#: includes/pro/lite-helper.php:348
+msgid ""
+"Text used for the final checkout button on the overlay (not the on-page "
+"payment button). Only applies to subscription plans with a free trial."
+msgstr ""
+
+#: simple-pay.php:92
+msgid ""
+"You must <a href=\"%1$s\">deactivate WP Simple Pay Lite</a> in order to use "
+"%2$s."
+msgstr ""
+
+#: simple-pay.php:114
+msgid "%1$s requires %2$s or higher."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add high conversion Stripe payment forms to your WordPress site in minutes."
+msgstr ""
+
+#: includes/core/admin/wp-list-table.php:836
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: includes/pro/lite-helper.php:296
+msgctxt "This is for the coupon percent off text on the frontend. i.e. 10% off"
+msgid "% off"
+msgstr ""
+
+#: includes/pro/lite-helper.php:297
+msgctxt "This is for coupon amount off on the frontend. i.e. $3.00 off"
+msgid "off"
+msgstr ""

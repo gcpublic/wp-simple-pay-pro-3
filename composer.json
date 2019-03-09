@@ -1,0 +1,8 @@
+{
+    "name": "gcpublic/wp-simple-pay-pro-3",
+    "description": "With WP Simple Pay Pro all payment records are stored on Stripe's ultra-secure servers, keeping your WordPress database size small and website loading fast.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": "see https://wordpress.org/plugins/stripe/",
+    "require": {}
+}
